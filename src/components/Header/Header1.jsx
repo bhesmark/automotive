@@ -5,12 +5,12 @@ function Header1() {
   return (
     <header className="header-area style-1">
       <div className="header-logo d-lg-none d-flex">
-        <Link legacyBehavior href=""><a><img alt="image" className="img-fluid" src="assets/img/logo.svg" /></a></Link>
+        <Link legacyBehavior href=""><a><img alt="image" className="img-fluid" src="assets/img/logo.png" /></a></Link>
       </div>
       <div className="main-menu">
         <div className="mobile-logo-area d-lg-none d-flex justify-content-between align-items-center">
           <div className="mobile-logo-wrap">
-            <Link legacyBehavior href=""><a><img alt="image" src="assets/img/logo.svg" /></a></Link>
+            <Link legacyBehavior href=""><a><img alt="image" src="assets/img/logo.png" /></a></Link>
           </div>
         </div>
         <ul className="menu-list">
@@ -173,7 +173,7 @@ function Header1() {
           </div>
           <div className="content">
             <span>To More Inquiry</span>
-            <h6><a href="tel:+990737621432">+990-737 621 432</a></h6>
+            <h6><a href="tel:8002440207">8002440207</a></h6>
           </div>
         </div>
       </div>
@@ -257,7 +257,7 @@ function Header1() {
           </div>
           <div className="content">
             <span>To More Inquiry</span>
-            <h6><a href="tel:+990737621432">+990-737 621 432</a></h6>
+            <h6><a href="tel:8002440207">8002440207</a></h6>
           </div>
         </div>
         <div className="sidebar-button mobile-menu-btn ">
