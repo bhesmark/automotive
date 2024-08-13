@@ -72,12 +72,12 @@ function Header() {
   return (
     <header ref={headerRef} className={state.scrollY > 10 ?"header-area style-1 sticky":"header-area style-1"}>
     <div className="header-logo d-lg-none d-flex">
-      <Link legacyBehavior href="/"><a><img alt="image" className="img-fluid" src="assets/img/logo.png" /></a></Link>
+      <Link legacyBehavior href="/"><a><img alt="image" className="img-fluid" src="assets/img/logo.svg" /></a></Link>
     </div>
     <div className={`main-menu ${state.isSidebarOpen ? "show-menu" : ""}`}>
       <div className="mobile-logo-area d-lg-none d-flex justify-content-between align-items-center">
         <div className="mobile-logo-wrap">
-          <Link legacyBehavior href="/"><a><img alt="image" src="assets/img/logo.png" /></a></Link>
+          <Link legacyBehavior href="/"><a><img alt="image" src="assets/img/logo.svg" /></a></Link>
         </div>
       </div>
       <ul className="menu-list">
@@ -285,7 +285,7 @@ function Header() {
         </div>
         <div className="content">
           <span>To More Inquiry</span>
-          <h6><a href="tel:+80024402072">8002440207</a></h6>
+          <h6><a href="tel:80024402072">8002440207</a></h6>
         </div>
       </div>
     </div>

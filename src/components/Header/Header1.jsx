@@ -5,12 +5,12 @@ function Header1() {
   return (
     <header className="header-area style-1">
       <div className="header-logo d-lg-none d-flex">
-        <Link legacyBehavior href=""><a><img alt="image" className="img-fluid" src="assets/img/logo.png" /></a></Link>
+        <Link legacyBehavior href=""><a><img alt="image" className="img-fluid" src="assets/img/logo.svg" /></a></Link>
       </div>
       <div className="main-menu">
         <div className="mobile-logo-area d-lg-none d-flex justify-content-between align-items-center">
           <div className="mobile-logo-wrap">
-            <Link legacyBehavior href=""><a><img alt="image" src="assets/img/logo.png" /></a></Link>
+            <Link legacyBehavior href=""><a><img alt="image" src="assets/img/logo.svg" /></a></Link>
           </div>
         </div>
         <ul className="menu-list">
@@ -81,6 +81,7 @@ function Header1() {
                   </ul>
                 </div>
               </li>
+              {/* USED CAR DISABLED 
               <li className="position-inherit">
                 <a href="#" className="drop-down">USED CAR</a>
                 <i onClick={() => toggleMenu("use-car")} className={`bi bi-${state.activeMenu === "use-car" ?"dash":"plus"} dropdown-icon`} />
@@ -141,6 +142,7 @@ function Header1() {
             <a href="#" className="drop-down">CONTACT US</a>
           </li>
         </ul>
+        */}
         <div className="topbar-right d-lg-none d-block">
           <a href="#">
             <svg width={16} height={16} viewBox="0 0 18 18" xmlns="http://www.w3.org/2000/svg">
